@@ -1,5 +1,5 @@
-# Face Segmentation of FaRL Model using FACER
-A face segmentation implementation of [FarRL](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_General_Facial_Representation_Learning_in_a_Visual-Linguistic_Manner_CVPR_2022_paper.pdf) model (CVPR 2022) using [FACER](https://github.com/FacePerceiver/facer), a face analysis toolkit for modern research.
+# Face Segmentation of FaRL Model using Facer
+A face segmentation implementation of [FarRL](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_General_Facial_Representation_Learning_in_a_Visual-Linguistic_Manner_CVPR_2022_paper.pdf) model (CVPR 2022) using [Facer](https://github.com/FacePerceiver/facer), a face analysis toolkit for modern research.
 
 The author of FaRL performed pre-training on LAION-FACE, a dataset containing a large amount of face image-text pairs. They then used the pretrained encoder, to extract the image features for training a downstream task, which also includes Face Parsing task. In this work, I utilize the FaRL model which was pretrained on the Face Parsing task, and then map the predicted labels (eyes, nose, mouth, etc.) into two separate labels, i.e., face and background.
 
