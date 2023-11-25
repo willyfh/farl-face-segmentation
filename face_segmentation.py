@@ -46,7 +46,7 @@ face_label_mapping = {
     'llip': 1,
     'ulip': 1,
     'hair': 0,
-    'eyeg': 0,
+    'eyeg': 1,
     'hat': 0,
     'earr': 0,
     'neckl': 0
