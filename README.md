@@ -29,3 +29,4 @@ python face_segmentation.py --help
 ## Output
 For left to right: segmented face image, extracted face mask, cropped face
 ![Shin-Eun-Soo_stackedsegmentation](https://github.com/willyfh/farl-face-segmentation/assets/5786636/046c3df4-2ec3-4c06-a4c3-cc2e227df93a)
+![Shin-Tae-Yong_stackedsegmentation](https://github.com/willyfh/farl-face-segmentation/assets/5786636/d7f9d84a-223c-4c64-bc5b-b07624b1dfac)
